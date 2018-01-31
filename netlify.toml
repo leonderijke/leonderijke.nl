@@ -2,6 +2,6 @@
   publish = "dist/"
   command = "yarn build"
 
-[context.production]
+[context.production.environment]
   NODE_ENV = "production"
   NODE_VERSION = 8
