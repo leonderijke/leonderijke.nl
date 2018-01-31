@@ -3,4 +3,5 @@
   command = "yarn build"
 
 [context.production]
+  NODE_ENV = "production"
   NODE_VERSION = 8
