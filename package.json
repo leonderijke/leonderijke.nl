@@ -1,0 +1,17 @@
+{
+  "name": "leonderijke.nl",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "repository": "git@github.com:leonderijke/leonderijke.nl.git",
+  "author": "Leon de Rijke",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ws --directory src/",
+    "build": "mkdir -p dist && cp src/index.html dist/"
+  },
+  "devDependencies": {
+    "local-web-server": "^2.4.0"
+  }
+}
